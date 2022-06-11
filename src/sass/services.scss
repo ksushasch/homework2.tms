@@ -1,0 +1,78 @@
+.services {
+    width: 100%;
+    padding: 42px 170px;
+}
+
+.services > h3 {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: #2D3033;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.services > h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #2D3033;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.services_line {
+    width: 170px;
+    height: 4px;
+    background-color: #F38281;
+    margin: 0 auto;
+}
+
+.services_list {
+    list-style-type: none;
+    display: grid;
+    column-gap: 30px;
+    row-gap: 130px;
+    grid-template-areas:
+    "photography web_design creativity"
+    "seo css_html digital";
+}
+
+.photography {
+    grid-area: photography;
+}
+
+.web_design {
+    grid-area: web_design;
+}
+
+.creativity {
+    grid-area: creativity;
+}
+
+.seo {
+    grid-area: seo;
+}
+
+.css_html {
+    grid-area: css_html;
+}
+
+.digital {
+    grid-area: digital;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.box > div {
+    flex-direction: row;
+}
